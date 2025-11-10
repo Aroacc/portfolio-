@@ -1,6 +1,6 @@
 import React from 'react';
 import { Rocket, Mail, Code } from 'lucide-react';
-import './Hero.css';
+import './hero.css';
 
 const Hero = () => {
   return (

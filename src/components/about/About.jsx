@@ -1,6 +1,6 @@
 import React from 'react';
 import { Code, Palette, Lightbulb } from 'lucide-react';
-import './About.css';
+import './about.css';
 
 const About = () => {
   const services = [
