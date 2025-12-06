@@ -1,6 +1,6 @@
 import React from "react";
 import { Code } from "lucide-react";
-import "./Projects.css";
+import "./projects.css";
 
 const Projects = () => {
   const projects = [
