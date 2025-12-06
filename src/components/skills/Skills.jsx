@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Skills.css";
+import "./skills.css";
 import AOS from "aos";
 
 const Skills = () => {
