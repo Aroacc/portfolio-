@@ -1,6 +1,6 @@
-import React from 'react';
-import { Rocket, Mail, Code } from 'lucide-react';
-import './hero.css';
+import React from "react";
+import { Rocket, Code, Download } from "lucide-react";
+import "./hero.css";
 
 const Hero = () => {
   return (
@@ -20,17 +20,18 @@ const Hero = () => {
             <span>Desarrolladora Web</span>
           </h1>
           <p className="hero-description">
-            Transformo ideas en experiencias digitales excepcionales. Combino creatividad, 
-            tecnología y pasión para crear soluciones que impactan y conectan.
+            Transformo ideas en experiencias digitales excepcionales. Combino
+            creatividad, tecnología y pasión para crear soluciones que impactan
+            y conectan.
           </p>
           <div className="hero-buttons">
             <a href="#portafolio" className="btn-primary">
               <Rocket size={20} />
               Ver Mi Trabajo
             </a>
-            <a href="#contacto" className="btn-secondary">
-              <Mail size={20} />
-              Hablemos
+            <a href="" className="btn-secondary" download>
+              <Download size={20} />
+              Descargar CV
             </a>
           </div>
         </div>
