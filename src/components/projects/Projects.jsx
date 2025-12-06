@@ -28,7 +28,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="projects-section">
+    <section id="proyectos" className="projects-section">
       <div className="projects-container">
         <h2 className="section-title">
           Mis <span className="text-gradient">Proyectos</span>
