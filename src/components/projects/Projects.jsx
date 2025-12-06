@@ -30,13 +30,18 @@ const Projects = () => {
   return (
     <section id="proyectos" className="projects-section">
       <div className="projects-container">
-        <h2 className="section-title">
+        <h2 className="section-title" data-aos="fade-down">
           Mis <span className="text-gradient">Proyectos</span>
         </h2>
 
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div key={index} className="project-card">
+            <div
+              key={index}
+              className="project-card"
+              data-aos="fade-up"
+              data-aos-delay={index * 150}
+            >
               <div
                 className="project-image"
                 style={{ background: project.gradient }}
@@ -63,3 +68,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
