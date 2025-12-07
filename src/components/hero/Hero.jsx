@@ -25,9 +25,9 @@ const Hero = () => {
             y conectan.
           </p>
           <div className="hero-buttons">
-            <a href="#portafolio" className="btn-primary">
+            <a href="#proyectos" className="btn-primary">
               <Rocket size={20} />
-              Ver Mi Trabajo
+              Ver mis proyectos
             </a>
             <a href="" className="btn-secondary" download>
               <Download size={20} />
