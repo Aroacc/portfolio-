@@ -1,0 +1,51 @@
+.tech-section {
+  padding: 5rem 2rem;
+  background: var(--bg-dark);
+}
+
+.tech-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: default;
+}
+
+.tech-card:hover {
+  transform: translateY(-8px) scale(1.1);
+  filter: drop-shadow(0 10px 20px rgba(168,85,247,0.4));
+}
+
+.tech-name {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+@media (max-width: 600px) {
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1.5rem;
+  }
+}
