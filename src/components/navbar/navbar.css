@@ -24,51 +24,107 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-decoration: none;
+    
 }
 
+/* Wrapper de links + botón */
+.nav-links-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Lista de links */
 .nav-links {
     display: flex;
     gap: 2rem;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: list-item;
 }
 
 .nav-links a {
     color: var(--text-white);
     text-decoration: none;
     transition: color 0.3s ease;
+    font-weight: 500;
 }
 
 .nav-links a:hover {
     color: var(--primary-color);
 }
 
+/* Botón LinkedIn */
+.nav-buttons {
+    margin-left: 1rem; 
+}
+
+.btn-linkedin-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #0A66C2; 
+    color: #ffffff; 
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(168, 85, 247, 0.3);
+}
+
+.btn-linkedin-icon:hover {
+    transform: scale(1.15) rotate(-5deg);
+    box-shadow: 0 8px 20px rgba(168, 85, 247, 0.5);
+}
+
+/* Botón hamburguesa */
 .nav-toggle {
-    display: none; 
+    display: none;
     background: none;
     border: none;
     color: var(--text-white);
     font-size: 1.5rem;
     cursor: pointer;
     align-items: center;
-
 }
 
-
+/* MOBILE */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
+    .nav-links-wrapper {
         flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: var(--bg-dark);
-        padding: 1rem 2rem;
-        border-bottom: 1px solid var(--border-color);
+        width: 100%;
     }
 
-    .nav-links.active {
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-links-wrapper.active .nav-links {
         display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .nav-buttons {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-linkedin-icon {
+        width: 40px;
+        height: 40px;
     }
 
     .nav-toggle {
