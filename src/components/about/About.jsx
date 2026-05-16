@@ -34,12 +34,16 @@ const About = () => {
           <h2 className="section-title">
             Sobre <span className="text-gradient">Mí</span>
           </h2>
-          <p className="about-intro-text">
-            Soy <strong>Frontend Developer</strong> especializada en crear interfaces web modernas, atractivas y funcionales. 
-            Trabajo con <strong>JavaScript, React, HTML y CSS</strong> para construir aplicaciones y landing pages que no solo se ven bien, sino que funcionan perfectamente.
-            Además, cuento con experiencia en <strong>QA automatizado con Playwright</strong>, creando pruebas, análisis y métricas para garantizar la calidad del software.
-            Mi objetivo es entregar proyectos profesionales, intuitivos y optimizados, que generen confianza y resultados a quienes los usan.
-          </p>
+         <p className="about-intro-text">
+  Soy <strong>Desarrolladora Frontend Developer</strong> actualmente en <strong>Knowmad Mood</strong>, 
+  donde formo parte del equipo de front de <strong>Atresmedia</strong>. Desarrollo y 
+  mantengo la plataforma de Atresplayer en <strong>web y Smart TV</strong> con <strong>React y JavaScript</strong>: 
+  resuelvo bugs, implemento cambios de UI, mejoro componentes y contribuyo al día a día 
+  del producto junto al resto del equipo. Además formo parte del proyecto de 
+  <strong> testing automatizado con Playwright</strong>, cubriendo los entornos web y Smart TV 
+  para garantizar que la app funcione correctamente. Me especializo en interfaces modernas 
+  y funcionales, donde el código limpio y la experiencia de usuario van siempre de la mano.
+</p>
         </div>
 
         <div className="about-grid">
@@ -48,7 +52,7 @@ const About = () => {
               key={index}
               className={`about-card about-card-${service.color}`}
               data-aos="fade-up"
-              data-aos-delay={index * 150} // animación escalonada
+              data-aos-delay={index * 150} 
             >
               <div className={`about-icon about-icon-${service.color}`}>
                 {service.icon}
