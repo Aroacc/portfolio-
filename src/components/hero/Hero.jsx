@@ -17,26 +17,25 @@ const Hero = () => {
           <h1 className="hero-title">
             <span className="hero-highlight">Aroa Clavijo Caravante</span>
             <br />
-            <span>Desarrolladora Web</span>
+            <span className="hero-role">- Desarrolladora Web</span>
           </h1>
           <p className="hero-description">
             Transformo ideas en experiencias digitales excepcionales. Combino
             creatividad, tecnología y pasión para crear soluciones que impactan
             y conectan.
           </p>
+      
           <div className="hero-buttons">
             <a href="#proyectos" className="btn-primary">
               <Rocket size={20} />
               Ver mis proyectos
             </a>
-            <a href="" className="btn-secondary" download>
-              <Download size={20} />
-              Descargar CV
-            </a>
+           
           </div>
         </div>
 
         <div className="hero-image">
+         
           <div className="hero-avatar">
             <div className="hero-avatar-inner">
               <Code size={120} className="hero-icon" />
