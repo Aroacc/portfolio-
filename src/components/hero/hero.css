@@ -85,10 +85,17 @@
 }
 
 .hero-highlight {
+    font-size: 4rem;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+.hero-role {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-light);
+  letter-spacing: 0.05em;
 }
 
 .hero-description {
@@ -122,26 +129,6 @@
   box-shadow: var(--shadow-strong);
 }
 
-.btn-secondary {
-  background: transparent;
-  color: var(--text-white);
-  padding: 0.75rem 1.5rem;
-  border: 2px solid var(--text-white);
-  border-radius: 50px;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: all 0.3s ease;
-}
-
-.btn-secondary:hover {
-  background: var(--text-white);
-  color: var(--bg-dark);
-  transform: translateY(-3px);
-}
-
 .hero-image {
   display: flex;
   justify-content: center;
@@ -171,6 +158,7 @@
 .hero-icon {
   color: var(--primary-color);
 }
+
 
 @media (max-width: 768px) {
   .hero-container {

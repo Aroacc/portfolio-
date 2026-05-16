@@ -10,7 +10,6 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/footer";
 import "./App.css";
 import TechSection from "./components/Tech/TechSection";
-import Cursor from "./components/cursor/Cursor";
 
 function App() {
   useEffect(() => {
@@ -23,7 +22,6 @@ function App() {
 
   return (
     <div className="App">
-      <Cursor />   
       <Navbar />
       <Hero />
       <About />

@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "Atresplayer",
       description:
-        "Trabajo en el testing automatizado y funcional de Atresplayer, llevando a cabo la detección, análisis y resolución de errores en Web, Smart TV y HBBTV. Desarrollo pruebas automatizadas con Playwright, diseño y ánalisis de métricas, solución de errores y contribuyo a mantener la plataforma estable, eficiente y libre de incidencias.",
+        "Formo parte del equipo de frontend de Atresplayer en Knowmad Mood. Desarrollo y mantengo la plataforma web y Smart TV con React y JavaScript: resuelvo bugs, implemento cambios de UI y contribuyo al producto junto al equipo. Colaboro también en el proyecto de testing automatizado con Playwright, cubriendo los entornos web y Smart TV para asegurar la calidad y estabilidad de la app.",
       tech: ["React", "Javascript", "Playwright", "Node.js"],
       gradient: "linear-gradient(135deg, #a855f7 0%, #ec4899 100%)",
     },

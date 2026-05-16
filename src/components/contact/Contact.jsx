@@ -47,7 +47,7 @@ const Contact = () => {
           <span className="text-gradient">Contacto</span>
         </h2>
 
-        <div className="contact-form-wrapper">
+        <div className="contact-form-wrapper" data-aos="fade-up">
           <div className="form-group">
             <label htmlFor="name">Nombre</label>
             <input
